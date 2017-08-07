@@ -45,6 +45,11 @@ h4 li {
 	padding: 5px 5px 5px 5px;
 	text-align: center;
 	line-height: 20px;
+	font-family: arial verdana;
+}
+
+h4 ul{
+	text-align: center;
 }
 
 li {
@@ -54,18 +59,15 @@ li {
 	line-height: 25px;
 	text-align: left;
 }
-
-ol {
-	text-align: left;
-	margin-left: : 0;
-	padding: 5px 5px 5px 5px;
-	left: 0;
-	line-height: 25px;
-
-}
-
 a {
 	font-style: italic; 
 	color: #B0C4DE;
+}
+
+.leftLabel{
+	float: left;
+}
+.rightLabel{
+	float: right;
 }
 
