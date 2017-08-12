@@ -1,0 +1,218 @@
+/*
+Project Name: Blank Template
+Client: Your Client
+Author: Your Name
+Developer @GA in NYC
+*/
+
+
+/******************************************
+/* SETUP
+/*******************************************/
+
+/* Box Model Hack */
+* {
+     -moz-box-sizing: border-box; /* Firexfox */
+     -webkit-box-sizing: border-box; /* Safari/Chrome/iOS/Android */
+     box-sizing: border-box; /* IE */
+}
+
+/* Clear fix hack */
+.clearfix:after {
+     content: ".";
+     display: block;
+     clear: both;
+     visibility: hidden;
+     line-height: 0;
+     height: 0;
+}
+
+.clear {
+  clear: both;
+}
+
+.alignright {
+  float: right;
+  padding: 0 0 10px 10px; /* note the padding around a right floated image */
+}
+
+.alignleft {
+  float: left;
+  padding: 0 10px 10px 0; /* note the padding around a left floated image */
+}
+
+/******************************************
+/* BASE STYLES
+/*******************************************/
+
+body {
+     color: #000;
+     font-size: 12px;
+     line-height: 1.4;
+     /*font-family: Helvetica, Arial, sans-serif;*/
+     font-family: 'Open Sans', sans-serif;
+     background-size: cover;
+     margin: auto;
+}
+
+/******************************************
+/* LAYOUT
+/*******************************************/
+
+/* Center the container */
+#container {
+  width: 100%;
+  margin: auto;
+  height: 500px;
+  background: url(../images/header_bg.jpg) no-repeat center top rgb(134,141,157)
+}
+h1 {
+  font-weight: 800;
+  font-size: 24px;
+  color: white;
+  text-align: left;
+  padding: 20px 10px;
+  /*font-family: 'Open Sans', sans-serif;*/
+}
+
+h2 {
+  font-weight: 600;
+  font-size: 24px;
+  color: white;
+  text-align: center;
+}
+
+#button1 {
+  background-color: #f9e42e; 
+  border-color: #f9e42e;
+  font-size: 14px;
+  position: absolute;
+  width: 25%;
+  height: 40px;
+  left: 40%;
+  top: 20%;
+}
+
+.button {
+  border-radius: 5px;
+  font-weight: 900;
+}
+
+#whitesection {
+  font-weight: 300;
+  font-size: 13px;
+  height: 300px;
+  background: #f0efef;
+  color: #606161;
+}
+
+#whitesection h3 {
+  font-weight: 600;
+  font-size: 20px;
+  font-style: italic;
+  padding: 30px 50px 10px;
+  color: #033048;
+}
+
+#whitesection p{
+  padding: 5px 50px 10px;
+  letter-spacing: 1px;
+}
+
+#whitesection ul {
+  padding: 10px 90px 10px;
+  list-style-type: square;
+}
+
+blockquote {
+  background: url(../images/testimonial_bg.jpg) no-repeat center top rgb(134,141,157)
+}
+
+blockquote p {
+  font-weight: 300;
+  font-size: 18px;
+  font-style: italic;
+  color: white;
+  height: 100px;
+  padding: 20px;
+  word-wrap: break-word;
+  width: 29em;
+  text-align: center;
+  position: relative;
+  left: 45px;
+  margin: auto;
+}
+
+blockquote h3 {
+  color: white;
+  height: 50px;
+  padding: 10px;
+  text-align: center;
+  text-indent: 80px;
+ /* margin-top: 40px;*/
+ /* margin-bottom: 20px;*/
+}
+
+#lastsection {
+  background: #121212;
+  height: 500px;
+}
+
+#lastsection h3 {
+  font-weight: 600;
+  font-size: 18px;
+}
+
+#button2 {
+  font-size: 12px;
+  background-color: #033048;
+  color: white;
+  border-color: #033048;
+  position: relative;
+  width: 25%;
+  height: 40px;
+  left: 40%;
+  top: 25%;
+}
+
+#yellowsection {
+  background: #f9e42e;
+  height: 70px;
+}
+
+footer h1 {
+  font-weight: 800;
+  font-size: 24px;
+  color: #f9e42e;
+  position: relative;
+  left: 46%;
+}
+
+img {
+  position: relative;
+  left: 40%;
+  bottom: 10px;
+  padding: 20px 20px;
+}
+
+/*.twitter {
+  padding: 10px;
+}
+
+.facebook {
+  padding: 10px 20px;
+}*/
+
+footer p {
+  font-weight: 800;
+  font-size: 9px;
+  color: white;
+  position: relative;
+  left: 45%;
+  color: #606161;
+}
+
+
+
+
+
