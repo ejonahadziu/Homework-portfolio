@@ -33,7 +33,7 @@ Developer @GA in NYC
 
 .alignright {
   float: right;
-  padding: 0 0 10px 10px; /* note the padding around a right floated image */
+  padding: 0 0 10px 10px;/* note the padding around a right floated image */
 }
 
 .alignleft {
@@ -61,18 +61,23 @@ body {
 
 /* Center the container */
 #container {
-  width: 100%;
-  margin: auto;
+  margin: 0 auto;
   height: 500px;
-  background: url(../images/header_bg.jpg) no-repeat center top rgb(134,141,157)
+  /*background: url(../images/header_bg.jpg) no-repeat center top rgb(134,141,157)*/
+  background-image: url(../images/header_bg.jpg);
+  background-size: center;
+  background-repeat: no-repeat;
+  width: 100%;
 }
+
 h1 {
   font-weight: 800;
   font-size: 24px;
   color: white;
   text-align: left;
-  padding: 20px 10px;
-  /*font-family: 'Open Sans', sans-serif;*/
+  padding: 20px;
+  color: white;
+  font-family: 'Bitter', serif;
 }
 
 h2 {
@@ -84,13 +89,16 @@ h2 {
 
 #button1 {
   background-color: #f9e42e; 
+  font-family: 'Roboto', sans-serif;
   border-color: #f9e42e;
+  color: #033048;
   font-size: 14px;
   position: absolute;
-  width: 25%;
+  width: 20%;
   height: 40px;
   left: 40%;
   top: 20%;
+
 }
 
 .button {
@@ -104,6 +112,7 @@ h2 {
   height: 300px;
   background: #f0efef;
   color: #606161;
+  font-family: 'Dosis', sans-serif;
 }
 
 #whitesection h3 {
@@ -117,19 +126,28 @@ h2 {
 #whitesection p{
   padding: 5px 50px 10px;
   letter-spacing: 1px;
+  line-height: 20px;
+  word-wrap: break-word;
+  width: 35em;
+  line-height: 20px;
 }
 
 #whitesection ul {
   padding: 10px 90px 10px;
   list-style-type: square;
+  line-height: 28px;
 }
 
 blockquote {
-  background: url(../images/testimonial_bg.jpg) no-repeat center top rgb(134,141,157)
+  background-image: url(../images/testimonial_bg.jpg);
+  width: 100%
+  background-repeat: no-repeat;
+  /*background: url(../images/testimonial_bg.jpg) no-repeat center top rgb(134,141,157)*/
 }
 
 blockquote p {
-  font-weight: 300;
+  font-weight: 100;
+  font-family: 'Lato', sans-serif;
   font-size: 18px;
   font-style: italic;
   color: white;
@@ -141,6 +159,7 @@ blockquote p {
   position: relative;
   left: 45px;
   margin: auto;
+  justify-content: center;
 }
 
 blockquote h3 {
@@ -149,6 +168,7 @@ blockquote h3 {
   padding: 10px;
   text-align: center;
   text-indent: 80px;
+  justify-content: center;
  /* margin-top: 40px;*/
  /* margin-bottom: 20px;*/
 }
@@ -165,14 +185,16 @@ blockquote h3 {
 
 #button2 {
   font-size: 12px;
+  font-family: 'Roboto', sans-serif;
   background-color: #033048;
   color: white;
   border-color: #033048;
   position: relative;
-  width: 25%;
+  width: 18%;
   height: 40px;
-  left: 40%;
+  left: 45%;
   top: 25%;
+
 }
 
 #yellowsection {
@@ -185,31 +207,32 @@ footer h1 {
   font-size: 24px;
   color: #f9e42e;
   position: relative;
-  left: 46%;
+  left: 48%;
 }
 
 img {
   position: relative;
-  left: 40%;
+  left: 46%;
   bottom: 10px;
-  padding: 20px 20px;
+  margin-bottom: auto;
+/*  padding: 20px 20px;*/
 }
 
-/*.twitter {
-  padding: 10px;
+.twitter {
+  padding: 10px 18px;
 }
 
 .facebook {
   padding: 10px 20px;
-}*/
+}
 
 footer p {
   font-weight: 800;
   font-size: 9px;
   color: white;
   position: relative;
-  left: 45%;
-  color: #606161;
+  left: 49%;
+  color: white;
 }
 
 
