@@ -65,7 +65,7 @@ body {
   height: 500px;
   /*background: url(../images/header_bg.jpg) no-repeat center top rgb(134,141,157)*/
   background-image: url(../images/header_bg.jpg);
-  background-size: center;
+  background-size: cover;
   background-repeat: no-repeat;
   width: 100%;
 }
