@@ -123,37 +123,45 @@ nav {
 }
 
 .articles a {
-  padding: 20px;
   font-weight: 600;
   font-size: 24px;
-  position: relative;
-  left: 60%;
+  left: 75%;
   margin-bottom: 10px;
   text-decoration: none;
   color: #033048;
 }
 
+.readmore {
+  padding: 20px 0;
+  text-align: right;
+}
+
 .article p {
   color: #606161;
+  text-align: justify;
 }
 
 #article1 {
   border-bottom: 1px solid;
   text-align: left;
   margin-bottom: 10px;
+  color: #606161;
 }
 
 #article2 {
   border-bottom: 1px solid;
   text-align: left;
+  color: #606161;
 }
 
 .racing {
-  text-align: center;
-  position: relative;
+  width: 100%;
 }
 .canoes {
-  text-align: center;
+  width: 100%;
+}
+.content {
+  text-align: justify;
 }
 
 .sidebar {
@@ -166,7 +174,7 @@ h3 {
   font-size: 34px;
   font-weight: 900;
   color: #033048;
-  padding: 10px 20px;
+  padding: 30px 10px 10px;
   text-align: left;
 }
 
@@ -182,6 +190,10 @@ h3 {
   font-size: 22px;
   font-weight: 100;
   color: #033048;
+  padding: 10px;
+  word-wrap: break-word;
+  width: 400px;
+  text-align: justify;
 }
 
 #sidebar2 a {
@@ -189,15 +201,18 @@ h3 {
   font-weight: 600;
   color: #033048;
   text-decoration: none;
+  padding: 10px;
 }
 #sidebar3 img {
   margin-top: 20px;
 }
 
 .bigL {
-  font-size: 38px;
+  font-size: 48px;
   float: left;
   margin-top: -5px;
+  margin-bottom: -10px;
+  margin-right: 10px;
 }
 
 #lastsection {
@@ -220,25 +235,25 @@ h3 {
   background-color: #033048; 
   font-family: 'Roboto', sans-serif;
   border-color: #f9e42e;
-  font-size: 14px;
+  font-size: 24px;
   border-radius: 5px;
   font-weight: 900;
   color: white;
   position: relative;
-  left: 40%;
-  padding: 5px;
-  margin: 10px;
+  left: 46%;
+  padding: 10px;
+  margin: 20px;
   font-family: 'Baloo Bhaijaan', sans-serif;
 }
 
 footer {
   position: relative;
-  left:40%;
+  left:48%;
 }
 
 footer h1 {
   color: #f9e42e;
-  padding: 10px;
+  padding: 10px 40px;
   font-size: 24px;
   font-family: 'Bitter', serif;
   font-weight: 600;
@@ -251,8 +266,12 @@ footer img {
 
 footer p {
   color: white;
-  padding: 15px;
+  padding: 20px;
   font-family: 'Bitter', serif;
+}
+
+a:hover {
+  font-size: 30px;
 }
 
 
