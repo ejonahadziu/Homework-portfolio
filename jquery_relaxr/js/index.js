@@ -6,7 +6,7 @@ $(document).ready(function() {
 	$('.learnmore').click(showmoretext);
 
 	function turnwhite(event) {
-		$('.navitems').css({color: 'yellow'});
+		$('.navitems').css({color: '#f9e42e'});
 		$(event.currentTarget).css({color: 'white'});
 	}
 
