@@ -10,7 +10,7 @@ $(document).ready(function() {
 		$(event.currentTarget).css({color: 'white'});
 	}
 
-	function showhiddentext () {
+	function showhiddentext (event) {
 		$('#show-this-on-click').slideDown();
 		$('.readless.hide').show();
 		$('.readmore').hide();
@@ -18,14 +18,14 @@ $(document).ready(function() {
 	}
 
 
-	function hidehiddentext () {
+	function hidehiddentext (event) {
 		$('#show-this-on-click').slideUp();
 	 	$('.readless.hide').hide();
 	 	$('.readmore').show();
 	 	event.preventDefault();
 	}
 
-	function showmoretext () {
+	function showmoretext (event) {
 		$('#learnmoretext').slideDown();
 		$('.learnmore').hide();
 		event.preventDefault();
