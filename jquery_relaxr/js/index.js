@@ -1,29 +1,28 @@
 $(document).ready(function() {
 
-	// $('nav').click(turnwhite);
+	$('.navitems').click(turnwhite);
 	$('.readmore').click(showhiddentext);
-	$('.readless').click(hidehiddentext);
+	$('.readless.hide').click(hidehiddentext);
 	$('.learnmore').click(showmoretext);
 
-	// // function turnwhite() {
-	// $('.container').click(function () {
-	// 	$('.container').css({'color', 'white'})
-	// }
-	
+	function turnwhite(event) {
+		$('.navitems').css({color: 'yellow'});
+		$(event.currentTarget).css({color: 'white'});
+	}
 
 	function showhiddentext () {
 		$('#show-this-on-click').slideDown();
-		$('.readless hide').show();
+		$('.readless.hide').show();
 		$('.readmore').hide();
 		event.preventDefault();
-
 	}
+
 
 	function hidehiddentext () {
 		$('#show-this-on-click').slideUp();
-		$('.readmore').show();
-		$('.readless hide').hide();
-		// event.preventDefault();
+	 	$('.readless.hide').hide();
+	 	$('.readmore').show();
+	 	event.preventDefault();
 	}
 
 	function showmoretext () {
