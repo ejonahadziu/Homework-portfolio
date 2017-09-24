@@ -292,6 +292,46 @@ footer p {
   width: 70%;
 }
 
+#header h1 {
+  color: #fff;
+  float: left;
+  font-size: 28px;
+  font-weight: 600;
+  padding: 10px;
+}
+.form {
+    padding: 20px;
+  }
+#register h1 {
+    padding: 20px;
+    float:left;
+    font-size: 28px;
+    font-weight: 600;
+    padding: 10px;
+    color: black;
+  }
+#register-button {
+    padding: 10px;
+    margin: 20px;
+    background: #033048;
+    color: black;
+    font-size: 24px;
+    border-radius: 5px;
+
+  }
+input {
+    padding: 10px 40px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
+.choice {
+    display: inline-block;
+}
+
+
 @media only screen and (max-width: 768px) {
   body {
     font-size: 18px;

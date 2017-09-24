@@ -11,26 +11,28 @@
 		<link rel="stylesheet" href="css/reset.css">
 		<link rel="stylesheet" href="css/style.css">
 
+
+
 	</head>
 	<body>
 		<header>
-			<div id="header">
+			<div id="register">
 				<h1>Register Now!</h1>
 			</div>
 		</header>
-		<div class="form">
+		<form class="form">
 			<label for="full-name">Name:</label>
-			<input id="full-name" type="text" />
+			<input id="full-name" type="text" name="full-name"/>
 
 			<br />
 
 			<label for="emailAddress">Email:</label>
-			<input id="emailAddress" type="email" />
+			<input id="emailAddress" type="email" name="emailAddress"/>
 
 			<br />
 
 			<label for="phone">Phone:</label>
-			<input id="phone" type="text" />
+			<input id="phone" type="text" name="phone"/>
 
 			<br />
 
@@ -46,34 +48,37 @@
 			<br />
 
 			<label for="userPassword">Password</label>
-			<input id="userPassword" type="password" />
+			<input id="userPassword" type="password" name="full-name"/>
 
 			<br />
 
 			<p>Which service are you interested in?</p>
 
-			<label for="relaxing">Relaxing</label>
-			<input type="radio" name="service" value="relaxing">
+			<label for="relaxing">
+				<input type="radio" name="service" value="relaxing">Relaxing
+			</label>
 
 			<br />
 
-			<label for="email">Email</label>
-			<input type="radio" name="service" value="email">
+			<label class="chocie" for="email">
+			<input type="radio" name="service" value="email">Email
+			</label>
 			
 			<br />
 
-			<label for="phone">Phone</label>
-			<input type="radio" name="service" value="phone">
+			<label class="chocie" for="phone">
+			<input type="radio" name="service" value="phone">Phone
+			</label>
 
 			<br />
 
-			<input type="checkbox" name="checkbox" value="checkbox">
+			<input class="chocie" type="checkbox" name="checkbox" value="checkbox">
 			<label for="checkbox">I agree to the terms</label>
 
-		</div>
+		</form>
 		<button id="register-button">
 			<a  href="#">Register Now!</a>
-		</button>>
+		</button>
 
 	</body>
 </html>
